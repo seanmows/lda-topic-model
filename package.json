@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sean Mowrey",
+  "author": "Sean Mowrey <sean.mowrey9@gmail.com>",
+  "repository": "github:seanmowz/lda-topic-model",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -17,6 +18,7 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
+    "node-snowball": "^0.4.0",
     "xregexp": "^4.2.4"
   }
 }
