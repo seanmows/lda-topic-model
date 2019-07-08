@@ -1,0 +1,22 @@
+{
+  "name": "lda-topic-model",
+  "version": "1.0.0",
+  "description": "LDA topic modelling in javascript for node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean Mowrey",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "xregexp": "^4.2.4"
+  }
+}
