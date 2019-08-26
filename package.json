@@ -1,6 +1,6 @@
 {
   "name": "lda-topic-model",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "LDA topic modelling in javascript for node.js",
   "main": "lib/index.js",
   "scripts": {
@@ -17,6 +17,24 @@
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "^1.18.2"
   },
+  "keywords": [
+    "lda",
+    "Latent Dirichlet allocation",
+    "Latent Dirichlet",
+    "Dirichlet",
+    "machine learning",
+    "ml",
+    "artificial intelligence",
+    "natural language processing",
+    "natural language",
+    "topic model",
+    "topic modeling",
+    "topic modelling",
+    "nlp",
+    "topics",
+    "document",
+    "words"
+  ],
   "dependencies": {
     "node-snowball": "^0.4.0",
     "xregexp": "^4.2.4"
