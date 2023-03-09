@@ -128,7 +128,7 @@ console.log(lda.getVocab());
 To run the algorithm on corpus of text use the following code
 
 ```
-const lda = new Lda(options, document, dictionary);
+const lda = new LDA(options, document, dictionary);
 
 ```
 The constructor has three parameters
