@@ -17,7 +17,10 @@ npm install lda-topic-model
 ## Usage
 
 ```
-const LDA = requrie('lda-topic-model');
+const LDA = require('lda-topic-model');
+
+const dictionary = []
+
 const document = [
     {
         id: '1',
@@ -36,7 +39,7 @@ const options = {
     stem: true,
 };
 
-const lda = new Lda(options, document, dictionary);
+const lda = new LDA(options, document, dictionary);
 console.log(lda.getTopicWords());
 // gets the topics, topic words, and topic scores
 //  [
@@ -119,7 +122,6 @@ console.log(lda.getVocab());
 //           specificity: 0
 //       }
 //  ]
-
 
 ```
 
